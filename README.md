@@ -54,7 +54,51 @@ export default function UserPage (){
 ```
 ![data3](https://github.com/Kunalgsolanki/NextjsTutorial/assets/105452144/bec401e6-3362-43f8-8090-8910fdfacff8)
 ## see here show me error in clinet browser 
-## to show it we convter it into clinet  or we create separate button componet which is alread clinet componet 
+## to show it we convter it into clinet  or we create separate button componet which is already clinet componet 
+
+
+```bach
+'use clinet'
+app/user/Button.tsx
+
+export default function Button (){
+    return (
+      <div className="flex justify-center"  >
+        <h1> Kunal</h1>
+        <button onClick={()=>console.log("hello word ")}> click</button>
+      </div>
+        
+    )
+}
+```
+
+and we add into the  servercomponent user/page.tsx
+```bash
+import React from "react"
+import Button from "./Button"
+
+
+export default function UserPage (){
+     return (
+       <div className="flex flex-row gap-10  justify-center">
+         <div className="flex justify-center"  >
+         <h1> Kunal</h1>
+      
+       </div>
+          <Button/>
+       </div>
+         
+     )
+}
+
+```
+
+
+
+
+
+
+
 
 
 
