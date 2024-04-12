@@ -1,27 +1,25 @@
-'use client'
-import { useSelector , useDispatch} from "react-redux"
-import  {increment, decrement , incrementByAmount} from "../app/Redux/Features/counter/counterSlice"
-import { RootState } from "./Redux/store";
 
+import Link from "next/link";
+
+import Button from "./Button";
 export default function Home() {
-  const count = useSelector((state: RootState) => state.counter.value);
-  const dispatch = useDispatch()
-  return (
-  <main>
-      {/* <div className="flex flex-row gap-10 justify-center align-bottom mt-10 ">
-      
-         <button onClick={ ()=>dispatch(decrement())}> - </button>
-         
-         <span> {count}</span>
-         <button onClick={ ()=>dispatch(increment())}> + </button>
-        
-    
-      </div> */}
 
-       <div>
-         <h1 className="flex  justify-center text-3xl mt-10">Next Js pretice</h1>
-       </div>
-       
-  </main>
+  return (
+    <main>
+      <div className="flex flex-col justify-center mt-10">
+        <div>
+          <h1 className="flex justify-center text-3xl">Next.js Practice</h1>
+        </div>
+        <div className="flex flex-col justify-center items-center mt-4">
+          <h1>Navigation</h1>
+        
+            {/* <a href="/Deshbord" className="mt-2 text-blue-500 hover:underline">Dashboard</a> */}
+            <Link href="/Deshbord">
+            <div className="mt-2 text-blue-500 hover:underline">Dashboard</div>
+          </Link>
+       <Button/>
+        </div>
+      </div>
+    </main>
   );
 }
