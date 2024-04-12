@@ -196,7 +196,7 @@ creare the app/Button.tsx
 
 ```bash
 import React from 'react';
-import { useRouter } from "next/router";
+import { useRouter } from "next/navigation";
 
 const Button = () => {
     const router = useRouter();
