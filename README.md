@@ -95,7 +95,7 @@ export default function UserPage (){
 
 ![data5](https://github.com/Kunalgsolanki/NextjsTutorial/assets/105452144/8f895151-3dea-4447-b551-e626f692b723)
 ## here see only downdowload client component here not download  user.tsx becouse it is server component
-## in this way we  imporve ouer component size so that it take few time load into browser
+## in this way we  improve our component size so that it take few time load into browser
 
 
 
