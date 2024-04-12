@@ -103,6 +103,12 @@ export default function UserPage (){
 
 # Routing In NextJS 
 ## for this goes to Routing branch 
+Nextjs has file based routing 
+here create fodeer Deshbord and then into add page.tsx
+
+
+
+
 
 
 
