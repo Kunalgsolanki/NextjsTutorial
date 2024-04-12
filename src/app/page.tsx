@@ -8,7 +8,7 @@ export default function Home() {
   const dispatch = useDispatch()
   return (
   <main>
-      <div className="flex flex-row gap-10 justify-center align-bottom mt-10 ">
+      {/* <div className="flex flex-row gap-10 justify-center align-bottom mt-10 ">
       
          <button onClick={ ()=>dispatch(decrement())}> - </button>
          
@@ -16,7 +16,12 @@ export default function Home() {
          <button onClick={ ()=>dispatch(increment())}> + </button>
         
     
-      </div>
+      </div> */}
+
+       <div>
+         <h1 className="flex  justify-center text-3xl mt-10">Next Js pretice</h1>
+       </div>
+       
   </main>
   );
 }
