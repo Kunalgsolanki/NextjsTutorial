@@ -6,7 +6,7 @@ https://nodejs.org/en
 check  version using this command
 node --version 
 
-#NextJs  installations
+# NextJs  installations
 npx create-next-app@latest
 
 
