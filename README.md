@@ -72,7 +72,7 @@ export default function Button (){
 }
 ```
 
-and we add into the  servercomponent user/page.tsx
+and we add into the  server component user/page.tsx
 ```bash
 import React from "react"
 import Button from "./Button"
@@ -94,7 +94,7 @@ export default function UserPage (){
 ```
 
 ![data5](https://github.com/Kunalgsolanki/NextjsTutorial/assets/105452144/8f895151-3dea-4447-b551-e626f692b723)
-## here see only downdowload client component here not download  user.tex becouse it is servercomponent
+## here see only downdowload client component here not download  user.tex becouse it is server component
 
 
 
