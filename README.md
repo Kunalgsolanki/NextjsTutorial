@@ -192,32 +192,40 @@ export default function Home() {
 ```
 ## roting using useRouter hoock 
 here use when we click the button navigae new page 
-creare the deshbord/Button.tsx
+creare the app/Button.tsx
 
 ```bash
-"use client"
-import React from 'react'
+import React from 'react';
 import { useRouter } from "next/router";
 
 const Button = () => {
-    const router = useRouter()
-  return (
-    <div>
-          <button onClick={()=>router.push("/Deshbord")} className="mt-2 bg-blue-500 hover:underline"> Deshbord</button>
-    </div>
-  )
-}
+    const router = useRouter();
 
-export default Button
+    const handleButtonClick = () => {
+        router.push("/Deshbord");
+    };
+
+    return (
+        <div>
+            <button onClick={handleButtonClick} className="mt-2 bg-blue-500 hover:underline">
+                Deshbord
+            </button>
+        </div>
+    );
+};
+
+export default Button;
+
 
 ```
 add into page.tsx
 
 ```bash
 page.tsx
+
 import Link from "next/link";
 
-import Button from "./Deshbord/Button";
+import Button from "./Button";
 export default function Home() {
 
   return (
@@ -239,6 +247,7 @@ export default function Home() {
     </main>
   );
 }
+
 
 
 
