@@ -28,6 +28,14 @@ npm run dev
 ## App Router 
 it has default  server componet use in nextjs applications
 in bellow image show the out put goes to direct server it not download the java sript bundles in clinet 
+![data](https://github.com/Kunalgsolanki/NextjsTutorial/assets/105452144/4c417618-5f45-4062-919e-cb7a6ed66c55)
+here i create the user component which is server component 
+below show you in webpack not downled that java script file 
+
+
+
+
+
 
 
 
