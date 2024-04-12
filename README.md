@@ -27,6 +27,10 @@ npm run dev
 
 ## App Router 
 it has default  server componet use in nextjs applications
+in bellow image show the out put goes to direct server it not download the java sript bundles in clinet 
+
+
+
 
 
 
