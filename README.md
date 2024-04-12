@@ -162,7 +162,7 @@ see in below
 
 ![daya3](https://github.com/Kunalgsolanki/NextjsTutorial/assets/105452144/b69f629a-2b14-4dc6-ae73-26a72ffeb1c7)
 
-##here load the cinet page take time to reload for resolve it nwxt js have Link tag which not read page that not download further object from the server when nevigate next page
+## here load the cinet page take time to reload for resolve it nwxt js have Link tag which not read page that not download further object from the server when nevigate next page
 
 add Link Tag 
 
