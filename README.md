@@ -105,6 +105,14 @@ export default function UserPage (){
 ## for this goes to Routing branch 
 Nextjs has file based routing 
 here create fodeer Deshbord and then into add page.tsx
+![p1](https://github.com/Kunalgsolanki/NextjsTutorial/assets/105452144/867cdc84-8f94-47d8-9b80-223497f1c26d)
+
+## run the app and show the access url this /Deshbord 
+you see this output 
+
+
+
+
 
 
 
