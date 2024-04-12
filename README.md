@@ -99,6 +99,9 @@ export default function UserPage (){
 
 
 
+#Routing In NextJS 
+
+
 
 
 
