@@ -99,7 +99,7 @@ export default function UserPage (){
 ## here see only downdowload client component here not download  user.tsx becouse it is server component
 ## in this way we  improve our component size so that it take few time load into browser
 
-'''bash 
+```bash 
 page/Deshbord/page.tsx
 
 
