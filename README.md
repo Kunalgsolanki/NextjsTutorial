@@ -18,3 +18,11 @@ install Nextjs in using following  command
 ```bash
 npx create-next-app@latest
 ```
+# Run NextJsApp
+```bash
+npm run dev
+```
+
+
+
+
