@@ -60,7 +60,7 @@ export default function UserPage (){
 
 
 ```bach
-'use clinet'
+'use client'
 app/user/Button.tsx
 
 export default function Button (){
