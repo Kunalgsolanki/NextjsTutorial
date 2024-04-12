@@ -10,3 +10,9 @@ Check the installed Node.js version using the following command:
 
 ```bash
 node --version
+
+## NextJs Installations
+install Nextjs in using following  command 
+```bash
+npx create-next-app@latest
+
