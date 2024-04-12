@@ -32,6 +32,10 @@ in bellow image show the out put goes to direct server it not download the java 
 here i create the user component which is server component 
 below show you in webpack not downled that java script file 
 
+![data2](https://github.com/Kunalgsolanki/NextjsTutorial/assets/105452144/dc75be53-41b2-413a-b380-67b2fbe1d94a)
+## here see not see user folder into the clinet 
+
+
 
 
 
