@@ -35,6 +35,28 @@ below show you in webpack not downled that java script file
 ![data2](https://github.com/Kunalgsolanki/NextjsTutorial/assets/105452144/dc75be53-41b2-413a-b380-67b2fbe1d94a)
 ## here see not see user folder into the clinet 
 
+## when i addclinet componet like button tag it show me errr
+```bash
+app/user/page.tsx
+
+import React from "react";
+
+export default function UserPage (){
+     return (
+       <div className="flex justify-center"  >
+         <h1> Kunal</h1>
+         <button onClick={()=>console.log("hello word ")}> click</button>
+       </div>
+         
+     )
+}
+
+
+```
+
+
+
+
 
 
 
