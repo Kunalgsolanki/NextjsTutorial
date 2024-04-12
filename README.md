@@ -99,6 +99,25 @@ export default function UserPage (){
 ## here see only downdowload client component here not download  user.tsx becouse it is server component
 ## in this way we  improve our component size so that it take few time load into browser
 
+'''bash 
+page/Deshbord/page.tsx
+
+
+import React from "react";
+export default function Deshbord (){
+   return (
+        <div className="flex  justify-center align-middle">
+            <h1> Deshbord </h1>
+        </div>
+    );
+}
+
+
+
+...
+
+
+
 
 
 # Routing In NextJS 
@@ -108,7 +127,9 @@ here create fodeer Deshbord and then into add page.tsx
 ![p1](https://github.com/Kunalgsolanki/NextjsTutorial/assets/105452144/867cdc84-8f94-47d8-9b80-223497f1c26d)
 
 ## run the app and show the access url this /Deshbord 
-you see this output 
+## you see this output 
+![data](https://github.com/Kunalgsolanki/NextjsTutorial/assets/105452144/d523fff1-558a-4c09-b869-5da6eab16eab)
+
 
 
 
