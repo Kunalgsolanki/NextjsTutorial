@@ -1,21 +1,12 @@
 # NextjsTutorial
-Here my NextJs + typeScript tutorial Repo which use as documitation for learning Nextjs+Typescript
-# installations
-download nodejs in local systems  using this 
-https://nodejs.org/en  
-check  version using this command
-node --version 
 
-# NextJs  installations
-npx create-next-app@latest
+Here my NextJs + typeScript tutorial Repo which use as documentation for learning Next.js + TypeScript.
 
+## Installations
 
+Download Node.js on your local system from [nodejs.org](https://nodejs.org/en).
 
+Check the installed Node.js version using the following command:
 
-
-
-
-
-
-
-
+```bash
+node --version
