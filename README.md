@@ -1,5 +1,5 @@
 # NextjsTutorial
-## goes to branch mster clone the code follow it 
+## goes to  master barnch clone it the code follow it this tutorial  
 Here my NextJs + typeScript tutorial Repo which use as documentation for learning Next.js + TypeScript.
 
 ## Installations
