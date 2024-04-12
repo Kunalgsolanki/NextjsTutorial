@@ -165,6 +165,35 @@ see in below
 ## here load the cinet page take time to reload for resolve it nwxt js have Link tag which not read page that not download further object from the server when nevigate next page
 
 add Link Tag 
+```bash 
+
+import Link from "next/link";
+export default function Home() {
+  return (
+    <main>
+      <div className="flex flex-col justify-center mt-10">
+        <div>
+          <h1 className="flex justify-center text-3xl">Next.js Practice</h1>
+        </div>
+        <div className="flex flex-col justify-center items-center mt-4">
+          <h1>Navigation</h1>
+        
+            {/* <a href="/Deshbord" className="mt-2 text-blue-500 hover:underline">Dashboard</a> */}
+            <Link href="/Deshbord">
+            <div className="mt-2 text-blue-500 hover:underline">Dashboard</div>
+          </Link>
+          
+        </div>
+      </div>
+    </main>
+  );
+}
+
+```
+
+
+
+
 
 
 
