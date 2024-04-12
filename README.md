@@ -51,8 +51,14 @@ export default function UserPage (){
      )
 }
 
-
 ```
+![data3](https://github.com/Kunalgsolanki/NextjsTutorial/assets/105452144/bec401e6-3362-43f8-8090-8910fdfacff8)
+## see here show me error in clinet browser 
+## to show it we convter it into clinet  or we create separate button componet which is alread clinet componet 
+
+
+
+
 
 
 
