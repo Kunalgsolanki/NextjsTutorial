@@ -128,6 +128,39 @@ here create fodeer Deshbord and then into add page.tsx
 ## you see this output 
 ![data](https://github.com/Kunalgsolanki/NextjsTutorial/assets/105452144/d523fff1-558a-4c09-b869-5da6eab16eab)
 
+##Navigatin using <Link>
+here first see why we use Link instead of a tag 
+first we use the <a>  for navigation 
+```bash
+
+
+export default function Home() {
+  return (
+    <main>
+      <div className="flex flex-col justify-center mt-10">
+        <div>
+          <h1 className="flex justify-center text-3xl">Next.js Practice</h1>
+        </div>
+        <div className="flex flex-col justify-center items-center mt-4">
+          <h1>Navigation</h1>
+        
+            <a href="/Deshbord" className="mt-2 text-blue-500 hover:underline">Dashboard</a>
+       
+        </div>
+      </div>
+    </main>
+  );
+}
+
+
+```
+
+
+
+
+
+
+
 
 
 
