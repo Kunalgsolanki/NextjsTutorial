@@ -25,6 +25,17 @@ npm run dev
 
 ![Screenshot 2024-04-12 171758](https://github.com/Kunalgsolanki/NextjsTutorial/assets/105452144/af7645be-580e-456f-9775-4370e7eef129)
 
+## App Router 
+it has default  server componet use in nextjs applications
+
+
+
+
+
+
+
+
+
 
 
 
