@@ -26,6 +26,8 @@ npm run dev
 ![Screenshot 2024-04-12 171758](https://github.com/Kunalgsolanki/NextjsTutorial/assets/105452144/af7645be-580e-456f-9775-4370e7eef129)
 
 ## App Router 
+for this goes to servercomponent branch
+
 it has default  server componet use in nextjs applications
 in bellow image show the out put goes to direct server it not download the java sript bundles in clinet 
 ![data](https://github.com/Kunalgsolanki/NextjsTutorial/assets/105452144/4c417618-5f45-4062-919e-cb7a6ed66c55)
@@ -100,7 +102,7 @@ export default function UserPage (){
 
 
 # Routing In NextJS 
-
+## for this goes to Routing branch 
 
 
 
