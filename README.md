@@ -156,7 +156,12 @@ export default function Home() {
 ```
 here when i inspect and show in network section i downloed  this components 
 ![data (2)](https://github.com/Kunalgsolanki/NextjsTutorial/assets/105452144/9fd79c61-bdcd-4278-82d4-667b6fc76107)
-nevigate deshbord route 
+nevigate deshbord route  reload the page 
+further download the all objects from the server 
+see in below 
+
+
+
 
 
 
