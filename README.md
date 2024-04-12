@@ -211,10 +211,10 @@ const Button = () => {
 export default Button
 
 ```
-add into page.tsa 
+add into page.tsx
 
 ```bash
-
+page.tsx
 import Link from "next/link";
 
 import Button from "./Deshbord/Button";
