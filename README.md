@@ -505,6 +505,8 @@ export default function Page ( {params}:{params:{slug:any}}){
 ```
 
 output: 
+![data4](https://github.com/Kunalgsolanki/NextjsTutorial/assets/105452144/18128306-ce94-4269-9698-01463d7b0252)
+
 
 
 
