@@ -480,7 +480,9 @@ export const data = [
 ## we imaplimennt in whay when parama is match to data.id the show that object in another page here below code we imapliemented that 
 
 
-bash```
+```bash
+
+
 import Layout from "../../../Layout"
 import {data }from "../../../../data/details/data"
 
