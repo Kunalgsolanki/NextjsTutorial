@@ -371,6 +371,41 @@ output:
 
 ![data5](https://github.com/Kunalgsolanki/NextjsTutorial/assets/105452144/e71830e1-6ba1-46e8-8c6b-ca8fc0da3770)
 ## we imapliment  accorid user id we goed details page using below code 
+here we create  in user foldeer folder which name is slug and  in that folder we create file page.tsx
+add below code 
+
+```bash
+"use client"
+import Layout from "../../../Layout"
+import {data }from "../../../../data/details/data"
+
+
+export default function Page ( {params}:{params:{slug:any}}){
+  
+  
+    
+    return (<Layout > 
+        <div>
+        
+         {params.slug}
+        
+        </div> </Layout>        )
+
+    
+}
+
+```
+## here apply  acess this url in brower here you see 
+
+
+
+
+
+
+
+
+
+
 
 
 
