@@ -257,6 +257,11 @@ export default function Home() {
 
 in this chepter we see how to apply dynamic routing with dehsbord  exomaple branch  LayoutWithRouting have exmple layout sturtcure with ruting you clone this branch  LayoutWithRouting 
 first clone this branch  LayoutWithRouting the goes to follow below code 
+appy daynamic routing into user serction we have user list when we click user details the show me according to user id that data into next page here we user only pne page and we data dyanamicly in application.
+for it we crate 10 data of user here below code : 
+
+
+
 
 
 
