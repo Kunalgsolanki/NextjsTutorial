@@ -1,8 +1,13 @@
 import React from "react";
+import Layout from "../Deshbord/Layout"
+import Home from "./DeshbordPanal/page";
 export default function Deshbord (){
    return (
+    <Layout>
         <div className="flex  justify-center align-middle">
-            <h1> Deshbord </h1>
+            
+            <Home/>
         </div>
+        </Layout> 
     );
 }
