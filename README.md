@@ -396,6 +396,123 @@ export default function Page ( {params}:{params:{slug:any}}){
 
 ```
 ## here apply  acess this url in brower here you see 
+![data6](https://github.com/Kunalgsolanki/NextjsTutorial/assets/105452144/f470aabf-2d9e-47a6-a15f-65d8d578f194)
+
+we can acess this accoridng all array object data.ts but deatils we add another file into  data/user/deatil/data.ts
+```bash
+
+export const data = [
+    {
+      "id": 1,
+      "username": "john_doe",
+      "email": "john.doe@example.com",
+      "registered_at": "2024-04-10T08:00:00Z",
+      "last_login": "2024-04-12T15:30:00Z",
+      "total_orders": 15,
+      "total_spent": 250.75,
+      "status": "active",
+      "address": "123 Main St, Cityville",
+      "phone": "+1234567890",
+      "loyalty_points": 350,
+      "membership_level": "Gold"
+    },
+    {
+      "id": 2,
+      "username": "jane_smith",
+      "email": "jane.smith@example.com",
+      "registered_at": "2024-03-25T10:15:00Z",
+      "last_login": "2024-04-12T12:45:00Z",
+      "total_orders": 10,
+      "total_spent": 180.50,
+      "status": "active",
+      "address": "456 Elm St, Townville",
+      "phone": "+1987654321",
+      "loyalty_points": 200,
+      "membership_level": "Silver"
+    },
+    {
+      "id": 3,
+      "username": "mike_jones",
+      "email": "mike.jones@example.com",
+      "registered_at": "2024-04-01T16:45:00Z",
+      "last_login": "2024-04-12T09:20:00Z",
+      "total_orders": 8,
+      "total_spent": 120.30,
+      "status": "active",
+      "address": "789 Oak St, Villageton",
+      "phone": "+1122334455",
+      "loyalty_points": 100,
+      "membership_level": "Bronze"
+    },
+    {
+      "id": 4,
+      "username": "emily_wang",
+      "email": "emily.wang@example.com",
+      "registered_at": "2024-04-05T11:30:00Z",
+      "last_login": "2024-04-12T14:00:00Z",
+      "total_orders": 20,
+      "total_spent": 300.00,
+      "status": "active",
+      "address": "321 Pine St, Forestville",
+      "phone": "+9988776655",
+      "loyalty_points": 500,
+      "membership_level": "Platinum"
+    },
+    {
+      "id": 5,
+      "username": "david_brown",
+      "email": "david.brown@example.com",
+      "registered_at": "2024-03-20T09:00:00Z",
+      "last_login": "2024-04-11T16:10:00Z",
+      "total_orders": 5,
+      "total_spent": 90.20,
+      "status": "active",
+      "address": "987 Maple St, Groveton",
+      "phone": "+5544332211",
+      "loyalty_points": 50,
+      "membership_level": "Basic"
+    }
+  ];
+  
+```
+
+# here file is use for the  show details of user data 
+## we imaplimennt in whay when parama is match to data.id the show that object in another page here below code we imapliemented that 
+
+
+bash```
+import Layout from "../../../Layout"
+import {data }from "../../../../data/details/data"
+
+
+export default function Page ( {params}:{params:{slug:any}}){
+  
+  const user= data.find((s)=>s.id===parseInt(params.slug)) || {}
+  console.log(user)
+    
+    return (<Layout > 
+        <div>
+        
+         {params.slug}
+        
+        </div> </Layout>        )
+
+    
+}
+
+```
+
+output: 
+
+
+
+
+
+
+
+
+
+
 
 
 
