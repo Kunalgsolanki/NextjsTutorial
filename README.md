@@ -253,7 +253,7 @@ export default function Home() {
 
 ```
 
-#dynamic Routing 
+# dynamic Routing 
 
 in this chepter we see how to apply dynamic routing with dehsbord  exomaple branch  LayoutWithRouting have exmple layout sturtcure with ruting you clone this branch  LayoutWithRouting 
 first clone this branch  LayoutWithRouting the goes to follow below code 
