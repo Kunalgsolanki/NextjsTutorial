@@ -477,7 +477,7 @@ export const data = [
 ```
 
 # here file is use for the  show details of user data 
-## we imaplimennt in sucj way when parama is match to data.id the show that object in another page here below code we imapliemented that 
+## we imaplimennt in such way when parama is match to data.id the show that object in another page here below code we imapliemented that 
 
 
 ```bash
