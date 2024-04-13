@@ -367,6 +367,9 @@ export default function Users() {
 }
 
 ```
+output:
+
+![data5](https://github.com/Kunalgsolanki/NextjsTutorial/assets/105452144/e71830e1-6ba1-46e8-8c6b-ca8fc0da3770)
 
 
 
