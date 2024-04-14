@@ -528,6 +528,27 @@ src/middleware.ts
 ```
 ![data3](https://github.com/Kunalgsolanki/NextjsTutorial/assets/105452144/31d88dd5-14ff-4ab5-80ab-30a4def5f87f)
 
+```bash
+middlewere
+
+
+import { NextResponse } from "next/server"
+import type { NextRequest } from "next/server"
+
+export function middleware ( request:NextRequest){
+return NextResponse.redirect(new URL("/user", request.url))
+}
+
+export const config = {
+    matcher: '/Deshbord/:path*',
+  }
+  
+
+```
+
+# use for authenticatuion when user not authenticate you apply thsi logoc for secure route 
+
+
 
 
 
