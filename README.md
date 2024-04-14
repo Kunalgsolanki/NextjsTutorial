@@ -510,7 +510,7 @@ we  show data in page  with ui that code is below
 ##output
 
 ```bash
-https:localhost:3000/deshhbord/details/2 enter url you can see below outout:
+http:localhost:3000/deshhbord/details/2 enter url you can see below outout:
 ```
 
 
