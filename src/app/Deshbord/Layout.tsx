@@ -2,6 +2,7 @@ import React from "react";
 import { Navbar } from "./Navbar";
 import Sidebar from "./SideBar";
 
+
 export default function DashboardLayout({
     children,
 }: {
@@ -16,7 +17,12 @@ export default function DashboardLayout({
                         <Sidebar />
                     </div>
                     <div className="justify-center items-center flex-grow">
-                        <main>{children}</main>
+                        <main>
+                       
+                            {children}
+                           
+                            
+                            </main>
                     </div>
                 </div>
             </div>
