@@ -545,9 +545,11 @@ export const config = {
   
 
 ```
-``bash
+
+
+```bash
 output : when you acess the http://localhost:3000/deshbord here redirect to user route 
-``
+```
 
 # use for authenticatuion when user not authenticate you apply this logoc for secure route 
 
