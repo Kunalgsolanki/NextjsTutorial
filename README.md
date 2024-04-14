@@ -590,6 +590,10 @@ export default async function page() {
 
 output :
 
+![data7](https://github.com/Kunalgsolanki/NextjsTutorial/assets/105452144/d092404e-b664-4249-99fc-f3e1af4b1680)
+
+
+
 
 
 
