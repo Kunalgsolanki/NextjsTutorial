@@ -519,10 +519,14 @@ http:localhost:3000/deshhbord/details/2 enter url you can see below outout:
 
 # middleware
 ## create middlewere in next13.js
+# when i  for request page it also execute middleware every request 
+# here we imaplimenet that we can also make in this way so that we we acess route it redirect the home page 
+
+
 ```bash
 src/middleware.ts
 ```
-
+![data3](https://github.com/Kunalgsolanki/NextjsTutorial/assets/105452144/31d88dd5-14ff-4ab5-80ab-30a4def5f87f)
 
 
 
