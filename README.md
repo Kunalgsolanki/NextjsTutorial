@@ -564,6 +564,38 @@ checkout my brach Middlewere
 https://dummyjson.com/products
 ```
 
+``` bash 
+
+import Layout from "../Layout"
+
+async function getData() {
+  let res = await fetch("https://dummyapi.online/api/products")
+  res = await res.json()
+  return res
+}
+export default async function page() {
+  const data = await getData()
+
+  console.log(data, "data")
+
+  return (
+    <Layout>
+      <h1>Product list</h1>
+    </Layout>
+  )
+} 
+
+
+```
+
+output :
+
+
+
+
+
+
+
 
 
 
