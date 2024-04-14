@@ -512,6 +512,10 @@ we  show data in page  with ui that code is below
 ![data2](https://github.com/Kunalgsolanki/NextjsTutorial/assets/105452144/e752ffca-4748-4283-bb69-3ca5baa3d86c)
 
 # Dynamic Routing with get Static params :
+## get static props
+
+
+
 
 
 
