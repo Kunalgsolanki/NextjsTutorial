@@ -518,7 +518,7 @@ http:localhost:3000/deshhbord/details/2 enter url you can see below outout:
 ![data2](https://github.com/Kunalgsolanki/NextjsTutorial/assets/105452144/e752ffca-4748-4283-bb69-3ca5baa3d86c)
 
 # middleware
-## crate middlewere in next13.js
+## create middlewere in next13.js
 
 
 
