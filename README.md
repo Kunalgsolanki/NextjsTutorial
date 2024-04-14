@@ -549,6 +549,8 @@ export const config = {
 
 ```bash
 output : when you acess the http://localhost:3000/deshbord here redirect to user route 
+checkout my brach Middlewere
+
 ```
 
 # use for authenticatuion when user not authenticate you apply this logoc for secure route 
