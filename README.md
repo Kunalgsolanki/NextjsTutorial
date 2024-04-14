@@ -520,6 +520,8 @@ http:localhost:3000/deshhbord/details/2 enter url you can see below outout:
 # middleware
 ## create middlewere in next13.js
 ![data8](https://github.com/Kunalgsolanki/NextjsTutorial/assets/105452144/c950e8a4-a89b-4905-b89c-fc408691b165)
+for every request of component execute this code
+
 
 
 
