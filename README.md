@@ -556,6 +556,15 @@ output : when you acess the http://localhost:3000/deshbord here redirect to user
 
 ## Data Fetching
 
+# Fetching Data on the Server with fetch
+## fetch data we use this api 
+```bash
+https://dummyjson.com/products
+```
+
+
+
+
 
 
 
